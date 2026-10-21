@@ -1,7 +1,12 @@
 body {
 background-color: #030712; /* Warna kuning cerah */
-font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+font-family: 'Inter', sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
 color: #ffffff; /* Warna teks utama (Biru Gelap) */
+display: flex;
+  flex-direction: column;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  height: 100vh;       
 }
 
 .kartuId {
@@ -17,4 +22,15 @@ box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
 display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center;     /* Centers vertically */
+}
+
+img{
+    border-radius: 50%;
+}
+
+button {
+    width: 75px;
+    margin: 50px auto;
+    background-color: #1C2029;
+    color: white;
 }
